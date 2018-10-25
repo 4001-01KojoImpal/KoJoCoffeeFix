@@ -12,7 +12,7 @@
         android:layout_weight="1">
 
         <Button
-            android:id="@+id/bInputPemilik"
+            android:id="@+id/InputPemilik"
             android:layout_width="331dp"
             android:layout_height="41dp"
             android:background="@color/colorPrimary"
@@ -24,8 +24,8 @@
             tools:layout_editor_absoluteY="46dp" />
 
         <Button
-            android:id="@+id/bInMenu"
-            android:layout_width="134dp"
+            android:id="@+id/bin_MenuP"
+            android:layout_width="144dp"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary"
             android:text="Menu"
@@ -36,9 +36,9 @@
             tools:layout_editor_absoluteY="115dp" />
 
         <Button
-            android:id="@+id/bInPesanan"
+            android:id="@+id/bin_Pesanan"
             android:layout_width="135dp"
-            android:layout_height="49dp"
+            android:layout_height="48dp"
             android:background="@color/colorPrimary"
             android:text="Pesanan"
             android:textAllCaps="false"
@@ -46,6 +46,44 @@
             android:textSize="16sp"
             tools:layout_editor_absoluteX="223dp"
             tools:layout_editor_absoluteY="115dp" />
+
+        <Button
+            android:id="@+id/bin_ModalP"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Modal"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="193dp" />
+
+        <Button
+            android:id="@+id/bUpPemilik"
+            android:layout_width="340dp"
+            android:layout_height="45dp"
+            android:background="@color/colorPrimary"
+            android:text="Update"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <Button
+            android:id="@+id/bup_MenuP"
+            android:layout_width="150dp"
+            android:layout_height="51dp"
+            android:background="@color/colorPrimary"
+            android:text="Menu"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="117dp"
+            tools:layout_editor_absoluteY="338dp" />
+
+
     </android.support.constraint.ConstraintLayout>
 
     <ImageView
