@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/InputPemilik"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/bInputPemilik"
+            android:layout_width="331dp"
+            android:layout_height="41dp"
+            android:background="@color/colorPrimary"
+            android:text="Input"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor"
+            android:textSize="18sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="46dp" />
+
+        <Button
+            android:id="@+id/bInMenu"
+            android:layout_width="134dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Menu"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="115dp" />
+
+        <Button
+            android:id="@+id/bInPesanan"
+            android:layout_width="135dp"
+            android:layout_height="49dp"
+            android:background="@color/colorPrimary"
+            android:text="Pesanan"
+            android:textAllCaps="false"
+            android:textColor="@color/TextColor"
+            android:textSize="16sp"
+            tools:layout_editor_absoluteX="223dp"
+            tools:layout_editor_absoluteY="115dp" />
+    </android.support.constraint.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:srcCompat="@color/colorMenu" />
+</LinearLayout>
